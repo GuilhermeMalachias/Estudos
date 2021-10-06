@@ -148,8 +148,8 @@ a:hover {
 
 .modal {
     background: white;
-    width: 60%;
-    min-width: 300px; /*Quando chegar nesse limite ele para de diminuir*/
+    width: 60vw;
+    /*min-width: 50px; Quando chegar nesse limite ele para de diminuir*/
     padding: 40px;
     border: 10px solid black;
     position: relative;
@@ -190,4 +190,15 @@ a:hover {
     footer {
         height: 30vh;
     }
+    .notice-title {
+        font-family: Times;
+    
+        text-align: center;
+        text-shadow: 1px 5px 10px black;
+        padding: 10px;
+    }
+    .modal {
+        text-align: center;
+        padding: 50px;
+        width: 100px;    }
 }

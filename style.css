@@ -87,7 +87,7 @@ footer {
     background-color: black;
     color: white;
 
-    height: 15vh;
+    margin-top: 50px;
     padding: 30px;
 
     display: flex;
